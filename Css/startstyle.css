@@ -1,0 +1,84 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    font-family: Reddit Sans, sans-serif;
+}
+
+body{
+    background-image: image-set(url(../Resources/Imágenes/collage.png));
+    background-size: cover;
+}
+
+:root{
+    --gray-300: #bfbfbf;
+    --gray-500: #8c8c8c;
+    --gray-800: #262626;
+}
+
+.header{
+    background-color: #04222D;
+    color: white;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+/* BOTONES HEADER */
+.buttons__header{
+    display: flex;
+    align-items: center;
+}
+
+.button__min{
+    background-color: #FFD166;
+    height: 50px;
+}
+
+.button__window{
+    background-color: #06D6A0;
+    height: 50px;
+}
+
+.button__close{
+    background-color: #FF6D72;
+    height: 50px;
+    
+}
+
+/* FIN BOTONES HEADER */
+
+.texto__regular{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.texto__buttonL{
+    color: #262626;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.button__L{
+    background-color: var(--gray-300);
+    border: 5px solid var(--gray-800);
+    color: var(--gray-800);
+    text-align: center;
+    border-radius: 3px;
+    display: flex;
+    padding: 16px 70px;
+    justify-content: center;
+    gap: 10px;
+    height: min-content;
+    width: min-content;
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+}
+
+.button__L:active {
+    background-color: var(--gray-500); /* change the background color on active state */
+}
